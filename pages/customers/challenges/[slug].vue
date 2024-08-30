@@ -1,4 +1,4 @@
-<script lang="ts">
+<script setup lang="ts">
     const { t } = useI18n({ inheritLocale: true })
 </script>
 
