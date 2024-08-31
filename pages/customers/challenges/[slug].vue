@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    const { t } = useI18n({ inheritLocale: true })
+    const { t } = useI18n({ useScope: 'local' })
 </script>
 
 <template>
