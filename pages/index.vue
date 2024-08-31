@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    const { localeProperties, setLocale } = useI18n()
+    const { localeProperties, setLocale } = useI18n({ useScope: 'local' })
     const localePath = useLocalePath()
     const { t } = useI18n({ inheritLocale: true })
     const source = {
